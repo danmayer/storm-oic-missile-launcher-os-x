@@ -5,12 +5,13 @@ http://dreamcheeky.com/storm-oic-missile-launcher
 
 Eventually I could hook up CI or something to trigger this and I will likely create a little gem for it.
 
-
+__First Time Setup__
 * For now you download the OSX missle launcher app
-* Open the missle app
-* 'unlock' the missle 'saftey'
+* Open the missle app one
+* click preferences, disable camera on startup
 * then `ruby test.rb`
 
-Eventually I will have the code open the app if it isn't already running, and unlock the missle when it first opens the app. This was the quickest dirtiest solution I could come up with.
+__Normal Usage After Setup__
+* run `ruby test.rb`
 
-
+This is a I don't care do what you want with it kind of for the LULz software.
